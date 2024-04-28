@@ -1,7 +1,7 @@
 export const Skeleton = () => {
     return (
         <div className="flex flex-col mt-10 items-center space-y-4">
-            {Array.from(Array(6), (e, i) => {
+            {Array.from(Array(6), (_, i) => {
                 return (
                     <div
                         key={i}
